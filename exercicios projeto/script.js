@@ -32,7 +32,7 @@ class Produto{
 //exercicio 7
 class Pessoa{
     constructor(nome, idade, profissao){
-    this.nome = nomethis;
+    this.nome = nome;
     this.idade = idade;
     this.profissao = profissao;
     }
