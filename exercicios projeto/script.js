@@ -42,6 +42,7 @@ class Pessoa{
 //exercicio 8
 class Cliente extends Pessoa{
     constructor(telefone, email, clienteDesde = "ANO-MES-DIA", nome, idade, profissao){
+    super(nome, idade, profissao)
     this.telefone = telefone;
     this.email = email;
     this.clienteDesde = clienteDesde;
